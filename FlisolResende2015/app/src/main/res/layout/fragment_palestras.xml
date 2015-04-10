@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+
+        >
+
+        <!--palestra agenor, allan e santiago-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10:00 - 10:40"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tema"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Tema: Software Livre?! Casos de sucesso no Sul Fluminense"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Convidados:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/agenor"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Agenor Silva Neto"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Calsonic Kansei"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/faceagenor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:id="@+id/linkagenor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/emailagenor"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/allan"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Allan Carlos"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Sankyu"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/faceallan"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:id="@+id/linkallan"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/emailallan"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/santiago"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Santiago Lopes"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="AEDB / Novartis"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/facesantiago"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:id="@+id/linksantiago"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/emailsantiago"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--minha palestra-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10:40 - 11:20"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Tema: Desenvolvimento de Software para Mobile - Android"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Convidados:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/leonardo"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Leonardo Benedeti"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="All Most"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/faceleo"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:id="@+id/linkleo"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/emailleo"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--palestra sergio-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="11:20 - 12:00"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Tema: Integração de Android com Arduino"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Convidados:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sergio"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Sergio Graças"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="PMVR"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/facesergio"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/emailsergio" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Giany Abreu-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/giany"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Giany Abreu"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="PMVR"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/emailgiany"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

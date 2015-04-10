@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <!--santiago-->
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Realização:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_aedb"
+                android:id="@+id/aedb" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:text="Associação Educacional Dom Bosco - Resende RJ"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sistemas_de_informacao"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:text="Curso de Sistemas de Informação - AEDB"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+
+
+
+
+        <!--santiago-->
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Organização:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/santiago"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Santiago Lopes"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="AEDB / Novartis"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        android:id="@+id/facesantiago" />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/linksantiago" />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/emailsantiago" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--priscyla-->
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Staff:"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#40ffffff"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/priscyla"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Priscylla Figueiredo"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:text="Empório High-Tech"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/facebook"
+                        android:id="@+id/facepri" />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/linkpri" />
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/email"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/emailpri" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Empresas parceiras:"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo_allmost_preta"
+                    android:id="@+id/allmost" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/emporio"
+                    android:id="@+id/emporio" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/editora_novatec"
+                    android:id="@+id/novatec" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sejalinux"
+                    android:id="@+id/sejalinux" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sinetwork"
+                    android:id="@+id/sinetwork" />
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/logo_sergio"
+                    android:id="@+id/sergio" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:text="Desenvolvido por:"
+        />
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo_allmost_preta"
+        android:id="@+id/allmost2" />
+    </LinearLayout>
+</ScrollView>
