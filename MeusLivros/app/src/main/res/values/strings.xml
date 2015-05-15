@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meus Livros</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form_livros">FormLivros</string>
+</resources>
