@@ -1,16 +1,16 @@
 # Android
 
-Neste repositório estão os aplicativos criados para o FLISoL Resende - 2015.
+Neste repositório estão os aplicativos criados para o FLISoL Resende - 2015.<br/>
 
-Aplicativo do FLISoL - Criado para mostrar a grade de palestras e oficinas com os contatos dos palestrantes, localização do evento... Confira o aplicativo no seguinte Link: https://play.google.com/store/apps/details?id=br.com.allmost.flisolresende2015&hl=pt_BR
+Aplicativo do FLISoL - Criado para mostrar a grade de palestras e oficinas com os contatos dos palestrantes, localização do evento... Confira o aplicativo no seguinte Link: https://play.google.com/store/apps/details?id=br.com.allmost.flisolresende2015&hl=pt_BR<br/>
 
 Meus Livros - Aplicativo proposto para a oficina de Android. O intuito é mostrar o BÁSICO de um CRUD. Quem baixar o aplicativo, está automaticamente desafiado a melhorá-lo com validações, design e o que mais precisar. 
-Caso tenha melhorado o aplicativo como foi proposto, por favor. Me enviem por email o link do projeto postado aqui no github para difundir a ideologia de código aberto. E novamente qualquer duvida basta enviar por email que eu ajudo quando puder. 
+Caso tenha melhorado o aplicativo como foi proposto, por favor. Me enviem por email o link do projeto postado aqui no github para difundir a ideologia de código aberto. E novamente qualquer duvida basta enviar por email que eu ajudo quando puder. <br/>
 
-Novamente obrigado aos organizadores do FLISoL pelo convite. Foi muito bom mostrar o que conheço do meio tecnologico.
+Novamente obrigado aos organizadores do FLISoL pelo convite. Foi muito bom mostrar o que conheço do meio tecnologico.<br/>
 
-Leonardo Benedeti - Desenvolvedor na All Most
-leonardobenedeti@gmail.com
-www.allmost.com.br
+Leonardo Benedeti - Desenvolvedor na All Most<br/>
+leonardobenedeti@gmail.com<br/>
+www.allmost.com.br<br/>
 
 Flisol Resende Android - 2015
